@@ -5,6 +5,15 @@
     <RootNamespace>WhichMan.HtmlToOpenXml</RootNamespace>
     <Company>WhichMan, INC.</Company>
     <Authors>WhichMan, INC.</Authors>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>WM.HtmlToOpenXml</PackageId>
+    <RepositoryUrl>https://github.com/tawani/htmltoopenxml</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/tawani/htmltoopenxml</PackageProjectUrl>
+    <PackageTags>HTML OpenXML DOCX</PackageTags>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <FileVersion>1.0.0.1</FileVersion>
+    <Description>Convert HTML to OpenXML to create WOrd DOCX documents</Description>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
