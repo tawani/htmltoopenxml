@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\AdvancedTable.html" />
+    <None Remove="Resources\CompleteRunTest.html" />
+    <None Remove="Resources\Demo.htm" />
+    <None Remove="Resources\Demo2.htm" />
+    <None Remove="Resources\excel2openxml.html" />
+    <None Remove="Resources\NumberingList.htm" />
+    <None Remove="Resources\RowSpan.htm" />
+    <None Remove="Resources\TableRowSpan.htm" />
+    <None Remove="Resources\template.docx" />
+    <None Remove="Resources\tsr.htm" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\AdvancedTable.html" />
+    <EmbeddedResource Include="Resources\CompleteRunTest.html" />
+    <EmbeddedResource Include="Resources\Demo.htm" />
+    <EmbeddedResource Include="Resources\Demo2.htm" />
+    <EmbeddedResource Include="Resources\excel2openxml.html" />
+    <EmbeddedResource Include="Resources\NumberingList.htm" />
+    <EmbeddedResource Include="Resources\RowSpan.htm" />
+    <EmbeddedResource Include="Resources\TableRowSpan.htm" />
+    <EmbeddedResource Include="Resources\template.docx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\HtmlToOpenXml\HtmlToOpenXml.csproj" />
+  </ItemGroup>
+
+</Project>
